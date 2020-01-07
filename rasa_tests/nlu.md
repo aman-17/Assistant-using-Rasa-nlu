@@ -5,8 +5,7 @@
 - good morning
 - good evening
 - hey there
-- hiii
-- hii
+
 
 ## intent:restaurant_search
 - i'm looking for a place to eat
@@ -37,13 +36,7 @@
 - fuck off
 - get lost
 
-## intent:curse_words
-- idiot
-- rascal
-- fuck you
-- fuck u
-- stupid
-- asshole
+
 
 ## intent:love
 - i love you
@@ -115,15 +108,16 @@
  - What is the weather today?
 
 ## intent:person_name
-- who is [narendra modi](person)
-- who is [ttd bgvc](person)
-- who is [nahxtyhbvcdi](person)
-- who is [nnghajkkjygur mfctvghodi](person)
-- who is [qweruytdxcvmouytrdi](person)
-- who is [wvcvbertyugvcci](person)
-- who is [ertyuhserfcvjdghj](person)
+- who is [tim cook](person)
 
 
+## intent:curse_words
+- idiot
+- rascal
+- fuck you
+- fuck u
+- stupid
+- asshole
 
 
 
