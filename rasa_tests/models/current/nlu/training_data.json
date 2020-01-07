@@ -1,0 +1,507 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hiii"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "i'm looking for a place to eat"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "I want to grab lunch"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "I am searching for a dinner spot"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "i'm looking for a place in the north of town"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "show me chinese restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "mexican",
+            "entity": "cuisine"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "centre",
+            "entity": "location"
+          }
+        ],
+        "text": "show me a mexican place in the centre"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "i am looking for an indian spot"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "search for restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere in the west"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "18328",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere near 18328"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "asian fusion",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I am looking for asian fusion food"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "29432",
+            "entity": "location"
+          }
+        ],
+        "text": "I am looking a restaurant in 29432"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thx"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks very much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thnx"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "bye",
+        "text": "bye"
+      },
+      {
+        "intent": "bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "bye",
+        "text": "good night"
+      },
+      {
+        "intent": "bye",
+        "text": "fuck off"
+      },
+      {
+        "intent": "bye",
+        "text": "get lost"
+      },
+      {
+        "intent": "curse_words",
+        "text": "idiot"
+      },
+      {
+        "intent": "curse_words",
+        "text": "rascal"
+      },
+      {
+        "intent": "curse_words",
+        "text": "fuck you"
+      },
+      {
+        "intent": "curse_words",
+        "text": "fuck u"
+      },
+      {
+        "intent": "curse_words",
+        "text": "stupid"
+      },
+      {
+        "intent": "curse_words",
+        "text": "asshole"
+      },
+      {
+        "intent": "love",
+        "text": "i love you"
+      },
+      {
+        "intent": "love",
+        "text": "i luv u"
+      },
+      {
+        "intent": "love",
+        "text": "i love u"
+      },
+      {
+        "intent": "love",
+        "text": "i'm in love with you"
+      },
+      {
+        "intent": "love",
+        "text": "i like you"
+      },
+      {
+        "intent": "bored",
+        "text": "i'm bored"
+      },
+      {
+        "intent": "bored",
+        "text": "i'm feeling bored"
+      },
+      {
+        "intent": "bored",
+        "text": "its so boring"
+      },
+      {
+        "intent": "my_name",
+        "text": "who are you"
+      },
+      {
+        "intent": "my_name",
+        "text": "what is your name"
+      },
+      {
+        "intent": "my_name",
+        "text": "who the fuck you are"
+      },
+      {
+        "intent": "my_dob",
+        "text": "how old are you"
+      },
+      {
+        "intent": "my_dob",
+        "text": "what is your date of birth"
+      },
+      {
+        "intent": "my_dob",
+        "text": "what is your dob"
+      },
+      {
+        "intent": "my_dob",
+        "text": "when were you born"
+      },
+      {
+        "intent": "admire",
+        "text": "who do you admire"
+      },
+      {
+        "intent": "admire",
+        "text": "who you inspire the most"
+      },
+      {
+        "intent": "admire",
+        "text": "who do you want to become like"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "not really"
+      },
+      {
+        "intent": "mood_great",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I'm good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremely sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
+      },
+      {
+        "intent": "ask_forecast_weather",
+        "text": "What is the weather forecast today?"
+      },
+      {
+        "intent": "ask_forecast_weather",
+        "text": "What is the weather today?"
+      },
+      {
+        "intent": "person_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "narendra modi",
+            "entity": "person"
+          }
+        ],
+        "text": "who is narendra modi"
+      },
+      {
+        "intent": "person_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "ttd bgvc",
+            "entity": "person"
+          }
+        ],
+        "text": "who is ttd bgvc"
+      },
+      {
+        "intent": "person_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "nahxtyhbvcdi",
+            "entity": "person"
+          }
+        ],
+        "text": "who is nahxtyhbvcdi"
+      },
+      {
+        "intent": "person_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 31,
+            "value": "nnghajkkjygur mfctvghodi",
+            "entity": "person"
+          }
+        ],
+        "text": "who is nnghajkkjygur mfctvghodi"
+      },
+      {
+        "intent": "person_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 26,
+            "value": "qweruytdxcvmouytrdi",
+            "entity": "person"
+          }
+        ],
+        "text": "who is qweruytdxcvmouytrdi"
+      },
+      {
+        "intent": "person_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "wvcvbertyugvcci",
+            "entity": "person"
+          }
+        ],
+        "text": "who is wvcvbertyugvcci"
+      },
+      {
+        "intent": "person_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 24,
+            "value": "ertyuhserfcvjdghj",
+            "entity": "person"
+          }
+        ],
+        "text": "who is ertyuhserfcvjdghj"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

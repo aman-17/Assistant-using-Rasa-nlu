@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/aman17/rasa_tests/models/current/nlu/component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/home/aman17/rasa_tests/models/current/nlu/component_5_EmbeddingIntentClassifier.ckpt"
