@@ -42,8 +42,6 @@
 
 ## intent:love
 - i love you
-- i luv u
-- i love u
 - i'm in love with you
 - i like you
 
@@ -55,7 +53,6 @@
 ## intent:my_name
 - who are you
 - what is your name
-- who the fuck you are
 
 ## intent:my_dob
 - how old are you
