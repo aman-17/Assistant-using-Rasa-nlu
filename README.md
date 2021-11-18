@@ -13,4 +13,4 @@ You can make you own assistant using RASA_NLU for your Desktop by following this
 Please go through Rasa-NLU docs for further knowledge and improvements.
 
 
-THIS PROJECT IS UNDER IMPROVEMENT.
+
